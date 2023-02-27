@@ -1,0 +1,338 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/tombo-policia.gif);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.buscar{
+
+  background-color: rgb(42, 162, 189);
+  height: 10vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.title{
+  height: 50vh;
+  background-image: url(../images/descarga.jpg);
+  color: rgb(243, 240, 240);;
+  background-size: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+  .pseudo{
+  padding: 12vh;
+}
+  .ques{
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh; 
+}
+.defi{
+  text-align: justify;
+}
+
+  .inici{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: rgb(14, 96, 49);
+}
+  .caja{
+  text-align: justify;
+  padding: 5vh;
+
+}
+.tcaja{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  background-color: rgb(31, 181, 66);
+
+}
+.click{
+
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+  
+  select {
+    margin: 8px;
+  }
+
+  
+  /* Etiquetas para entradas marcadas */
+  .yes:checked + label {
+    color: rgb(200, 255, 0);
+  }
+
+  
+  /* Elemento Radio, cuando está marcado */
+  .yes[type="radio"]:checked {
+    box-shadow: 0 0 0 3px #189e76 ;
+  }
+
+  
+  /* Elemento Checkbox, cuando está marcado */
+  input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px #1a9e18;
+  }
+
+  
+  /* Elementos Option, cuando se seleccionan */
+  option:checked {
+    box-shadow: 0 0 0 3px lime;
+    color: rgb(0, 136, 255);
+  }
+
+    .circulo:default {
+      box-shadow: 0 0 2px 1px rgb(7, 74, 27);
+    }
+  #jejesi:default {
+    box-shadow: 0 0 2px 1px rgb(9, 95, 49);
+  }
+
+    .circulo:default + label {
+      color: rgb(11, 104, 31);
+      display: flex;
+      align-items: center;
+    }
+      page:first{
+      margin-left:50% ;
+      margin-top: 50%;
+    }
+    .primer{
+      page-break-after: always;
+    }
+        button:first-child{
+        color: #1ac517;
+        background-color: rgb(214, 214, 214);
+    }
+.tipe p:first-of-type{
+    color: #239e18;
+    font-size: 1.5rem;
+}
+#fullscreen:fullscreen{
+    font-size: 1.5rem;
+
+}
+#fullscreen:fullscreen > p{
+    color: #05d213;
+}
+.tombo:focus{
+    background-color: #79c978;
+    color: #f2f2f2;
+}
+.falso:focus{
+    background-color: rgb(219, 151, 151);
+    color: green;
+}
+.clickhere{
+    background-color: rgb(72, 102, 63);
+    transition: background-color .5s;
+    font-size: 3.333rem;
+
+}
+.clickhere:hover{
+    background-color: rgb(0, 255, 30);
+}
+input:indeterminate label{
+    background-color: lime;
+}
+li{
+    list-style: none;
+    margin-bottom: 1em;
+}
+#valo1{
+    border: 1px solid black;
+}
+#valo1:in-range{
+    background-color: rgba(0, 255, 0, 0.25);
+
+}
+#valo1:out-of-range{
+    background-color: rgba(255, 0, 0, 0.25);
+    border: 2px solid red;
+}
+#url-input:invalid{
+    background-color: #ffdddd;
+}
+#url-input:valid{
+    background-color: #ddffdd;
+
+}
+.inva{
+    border: 5px  solid rgb(214, 214, 214);
+    display: flex;
+    align-items: center;
+}
+.ultimo p:last-child{
+    background-color: #27720c;
+    color: white;
+}
+.ltipe p:last-of-type{
+    color: #189e33;
+}
+.ltipe{
+    border: 3px solid rgb(12, 105, 16);
+}
+.enlavis a:link{
+    background-color: rgb(19, 163, 14);
+    color: rgb(214, 214, 214);
+}
+.fancy{
+    text-shadow: 2px 2px 3px #06590c;
+}
+.notk p:not(.fancy){
+    color: green;
+}
+.notk div:not(p){
+    text-decoration: underline;
+}
+.notk{
+    border: 3px solid rgb(214, 214, 214);
+}
+.first span:nth-child(2n+1){
+  background-color: #0b6d16;
+}
+.first span, .first div em{
+  padding: 5px;
+  border: 1px solid rgb(16, 134, 51);
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.tabla{
+  border: 3px solid rgb(12, 85, 22);
+}
+tr:nth-last-child(-n+3){
+  background-color: rgb(17, 92, 29);
+}
+tr:nth-last-child(4){
+  color: #13d313;
+}
+.ltp span:nth-last-of-type(2){
+  background-color: #189e33;
+  color: white;
+}
+.t2caja{
+  font-size: 2.1rem;
+  background-color: rgb(44, 175, 21);
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+}
+.mani :only-child{
+  background-color: #189e3c;
+  color: white;
+}
+.mano :only-of-type{
+  background-color: #189e3c;
+  color: white;
+}
+.opti :optional{
+  border: 2px solid rgba(0, 255, 0, 0.25) ;
+}
+.este{
+  list-style: none;
+  margin-bottom: 1em;
+}
+.valor1{
+border: 1px solid black;
+}
+input:out-of-range{
+  background-color: rgba(255, 0, 0, 0.25);
+}
+input:in-range{
+  background-color: rgba(0, 255, 0, 0.25);
+}
+input:in-range+label::after{
+  content: ' melo.';
+}
+input:out-of-range+label::after{
+  content: ' paila.';
+}
+input.orea:read-only{
+  background-color: #189e5d;
+  color: white;
+}
+input.edi:read-write{
+  background-color: #189e49;
+  color:white;
+}
+input.req:required{
+  background-color: #189e3e;
+  color: white;
+}
+p:target{
+  background-color: #189e1a;
+}
+p:target::before{
+  content: "►";
+  color: rebeccapurple;
+  margin-right: .25em;
+}
+input.olas:invalid{
+  background-color: rgba(255, 0, 0, 0.25);
+}
+input.olas:valid{
+  background-color: #319e18;
+}
+.visi a{
+  background-color: #189e547d;
+}
+.visi a:visited{
+  background-color: rgba(0, 255, 0, 0.446);
+}
+.raku::after{
+  content: " <- 😎😎😎!";
+  color: #189e31;
+}
+.kata::after{
+  content:" <- 😎😎😎!";
+}
+.spre::before{
+  content: "«";
+  color: red;
+}
+.spre::after{
+  content: "»";
+  color: rgb(0, 255, 149);
+}
+.pletra::first-letter{
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fline::first-line{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #189e35;
+}
+.fline::first-letter{
+  font-size: 3rem;
+}
+.selec::selection{
+  background-color: #189e1f   ;
+}
+input::placeholder{
+  color: white;
+  background-color: #189e31;
+}
+ul li::marker{
+  color: #189e78;
+  font-size: 1.5rem;
+  background-color: red;
+}
+.spell::spelling-error{
+  background-color: red;
+}
